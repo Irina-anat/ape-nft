@@ -1,0 +1,64 @@
+.heroContainer{
+    background: var(--primary-background);
+    padding: 54px 8px 0px 8px;
+}
+.heroSection{
+    color: var(--secondary-text-color);
+    background-color: var(--background-red);
+    border-radius: 12px;    
+    padding: 36px 64px 19px 64px;
+    text-align: center;
+}
+
+.heroContent{ 
+    font-family: "Biro Script Plus";/* "Biro Script Plus Bold US"; */
+    font-size: 16px;
+    line-height: 1.6875;
+    font-weight: 600;
+}
+
+.heroTitle{
+    font-family: "Right Grotesk";
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    margin-bottom: 8px;
+}
+
+.heroImage{
+   display: flex;
+justify-content: center;
+}
+
+.heroBtn{
+    font-family: "Right Grotesk";
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.1875;
+    border-radius: 8px;
+    background-color: rgba(30, 30, 30, 0.10);
+    backdrop-filter: blur(6px);
+    display: inline-block;
+    padding: 10px 70px 12px 70px;
+    margin-top: -7px;
+    margin-bottom: 12px;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:hover{
+            color: var(--primary-text-color);
+        }
+}
+
+.heroText{
+    font-family: "Messina Sans Mono";
+    font-size: 12px;
+    line-height: 1.1667;
+    text-transform: uppercase;
+    max-width: 217px;
+    margin-right: auto;
+    margin-left: auto;
+}

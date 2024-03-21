@@ -1,0 +1,12 @@
+:root{
+    --primary-text-color: #FFF;
+    --secondary-text-color: #1E1E1E;
+    --accent-color: #DC3B5A;
+    --social-icons-color: #1E1E1E;
+    --social-icons-color-hover: #FFFFFF;
+    --background-red: #DC3B5A;
+    --primary-background: #181818;
+
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}

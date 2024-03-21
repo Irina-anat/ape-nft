@@ -1,0 +1,58 @@
+.aboutContainer{
+    background-color: var(--primary-background);
+    color: var(--primary-text-color);
+    padding: 60px 68px 0px 68px;
+}
+
+ .contentBox {
+     max-width: 230px;
+     margin-right: auto;
+     margin-left: auto;
+ }
+
+.aboutTitle{
+    font-family: "Right Grotesk";
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.accentColor{
+    color: var(--accent-color);
+}
+
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 36px;
+
+    text-align: right;
+    font-family: "Messina Sans Mono";
+    font-size: 16px;
+    line-height: 1.1875;
+    text-transform: uppercase;
+} 
+
+.containerCross{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 16px;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    text-align: center;
+    font-family: "Messina Sans Mono";
+    font-size: 12px;
+    line-height: 1.16667;
+    text-transform: uppercase;
+}
