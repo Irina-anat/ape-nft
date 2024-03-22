@@ -11,7 +11,7 @@ import { Banner } from 'components/Banner/Banner';
 
 export const AboutSection = () => {
   return (
-    <section>
+    <section id="#about">
       <div className={css.aboutContainer}>
        <div className={css.contentBox}>
         <h2 className={css.aboutTitle}>

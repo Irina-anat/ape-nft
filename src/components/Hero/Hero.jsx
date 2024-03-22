@@ -4,17 +4,16 @@ import heroApeTablet1 from 'img/hero/heroApe768@1x.png';
 import heroApeTablet2 from 'img/hero/heroApe768@2x.png';
 import heroApeDesktop1 from 'img/hero/heroApe1280@1x.png';
 import heroApeDesktop2 from 'img/hero//heroApe1280@2x.png';
-import { animateScroll as scroll } from 'react-scroll';
 import css from './Hero.module.css';
 
 export const Hero = () => {
-  
+
   const scrollToSection = () => {
-    scroll.scrollTo('mintSection', {
-      duration: 1000,
-      smooth: 'easeInOutQuart',
-    });
-  };
+  const section = document.getElementById('#m-map');
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'start' });
+  }
+};
 
   return (
     <section className={css.heroContainer}>
@@ -48,9 +47,9 @@ export const Hero = () => {
             />
           </picture>
         </div>
-        <button type="button" className={css.heroBtn} onClick={scrollToSection} aria-label="Scroll to Mint section">
-          MEET APES
-        </button>
+        <a href="#m-map" className={css.heroBtn} onClick={scrollToSection}>
+              MEET APES
+        </a>
         <p className={css.heroText}>
           Yacht Ape is a collection of unique digital apes that you can own in
           NFT format

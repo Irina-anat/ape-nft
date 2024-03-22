@@ -2,8 +2,7 @@
 width: 100%;
 background-color: var(--background-red);
 color: var(--primary-text-color);
-padding-top: 1px;
-padding-bottom: 1px;
+padding-bottom: 3px;
 
 font-family: "Right Grotesk";
 font-size: 36px;
@@ -16,7 +15,7 @@ overflow: hidden;
 .scrollText {
     display: flex;
     white-space: nowrap;
-    animation: scrollText 8s linear infinite;
+    animation: scrollText 4s linear infinite;
 }
 
 .containerItem{
@@ -34,7 +33,7 @@ margin-left: 24px;
 
 @keyframes scrollText {
     0% {
-        transform: translateX(100%);
+        transform: translateX(0%);
     }
     100% {
         transform: translateX(-100%);

@@ -1,0 +1,94 @@
+.mobileMenu {
+    position: fixed; 
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 62px 16px 80px 16px;
+    max-width: 524px;
+    background-color: var(--primary-background); 
+    color: var(--primary-text-color);
+    transform: translateX(100%);
+    transition: transform 750ms var(--timing-function);
+    z-index: 2; 
+}
+
+ .mobileMenu.openMenu {   
+    transform: translateX(0);
+    transition: transform 750ms var(--timing-function);
+    
+    
+ }
+
+.mobileBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnMenu {
+    color: var(--secondary-text-color);
+    font-family: "Messina Sans Mono";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.1667;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        outline: none;
+        color: var(--primary-text-color);
+    }
+
+}
+
+.mobileItem {
+    pointer-events: auto;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(30, 30, 30, 0.10);
+    backdrop-filter: blur(6px);
+    margin-bottom: 10px;
+}
+
+.menuItems{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin-top: 16px;
+
+    color: var(--primary-text-color);
+    font-family: "Messina Sans Mono";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.208;
+}
+
+.menuItems a{
+    color: inherit;
+}
+
+
+.menuText{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: "Messina Sans Mono";
+    font-size: 12px;
+    line-height: 1.1667;
+    text-transform: uppercase;
+    bottom: 80px;
+}

@@ -13,7 +13,7 @@ export const SocialList = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <DiscordIcon />
+              <DiscordIcon/>
             </a>
           </li>
           <li className={css.socialItem}>
@@ -22,7 +22,7 @@ export const SocialList = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <ShipIcon />
+              <ShipIcon/>
             </a>
           </li>
           <li className={css.socialItem}>
@@ -31,7 +31,7 @@ export const SocialList = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <TwitterIcon />
+              <TwitterIcon/>
             </a>
           </li>
         </ul>
