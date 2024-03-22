@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ape-nft/static/css/main.d78becb3.css",
-    "main.js": "/ape-nft/static/js/main.0a008a53.js",
+    "main.css": "/ape-nft/static/css/main.8b1d0b1a.css",
+    "main.js": "/ape-nft/static/js/main.7a06c5fc.js",
     "static/media/BiroScriptUSPlus-Sloppy.eot": "/ape-nft/static/media/BiroScriptUSPlus-Sloppy.5ca5e866111ab6b0e8a3.eot",
     "static/media/BiroScriptUSPlus-Sloppy.ttf": "/ape-nft/static/media/BiroScriptUSPlus-Sloppy.10812daae86fa2a0d3ab.ttf",
     "static/media/BiroScriptPlus-Sloppy.eot": "/ape-nft/static/media/BiroScriptPlus-Sloppy.857bca03a4cce14fd651.eot",
@@ -66,11 +66,11 @@
     "static/media/MessinaSansMono-Black.woff2": "/ape-nft/static/media/MessinaSansMono-Black.371abe33808d4457f340.woff2",
     "static/media/icons.svg": "/ape-nft/static/media/icons.b7b9a8112b9f9da7b7ca294a504ae360.svg",
     "index.html": "/ape-nft/index.html",
-    "main.d78becb3.css.map": "/ape-nft/static/css/main.d78becb3.css.map",
-    "main.0a008a53.js.map": "/ape-nft/static/js/main.0a008a53.js.map"
+    "main.8b1d0b1a.css.map": "/ape-nft/static/css/main.8b1d0b1a.css.map",
+    "main.7a06c5fc.js.map": "/ape-nft/static/js/main.7a06c5fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.d78becb3.css",
-    "static/js/main.0a008a53.js"
+    "static/css/main.8b1d0b1a.css",
+    "static/js/main.7a06c5fc.js"
   ]
 }
