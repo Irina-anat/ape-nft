@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ape-nft/static/css/main.acda5781.css",
-    "main.js": "/ape-nft/static/js/main.b21c0358.js",
+    "main.css": "/ape-nft/static/css/main.ddd30f9f.css",
+    "main.js": "/ape-nft/static/js/main.210bd616.js",
     "static/media/BiroScriptUSPlus-Sloppy.eot": "/ape-nft/static/media/BiroScriptUSPlus-Sloppy.5ca5e866111ab6b0e8a3.eot",
     "static/media/BiroScriptUSPlus-Sloppy.ttf": "/ape-nft/static/media/BiroScriptUSPlus-Sloppy.10812daae86fa2a0d3ab.ttf",
     "static/media/BiroScriptPlus-Sloppy.eot": "/ape-nft/static/media/BiroScriptPlus-Sloppy.857bca03a4cce14fd651.eot",
@@ -40,6 +40,7 @@
     "static/media/aboutApe768@1x.png": "/ape-nft/static/media/aboutApe768@1x.416049f98a872b88e946.png",
     "static/media/MessinaSansMono-Light.ttf": "/ape-nft/static/media/MessinaSansMono-Light.a12cfcff416219672fa4.ttf",
     "static/media/MessinaSansMono-Book.eot": "/ape-nft/static/media/MessinaSansMono-Book.693d8bd737d7690c8da7.eot",
+    "static/media/faq2@2x.jpg": "/ape-nft/static/media/faq2@2x.f326ccf2fa5f6e4698d6.jpg",
     "static/media/MessinaSansMono-Regular.eot": "/ape-nft/static/media/MessinaSansMono-Regular.3a4f461eac12ca313ab7.eot",
     "static/media/MessinaSansMono-Book.ttf": "/ape-nft/static/media/MessinaSansMono-Book.c72629595812a8ff4ffe.ttf",
     "static/media/MessinaSansMono-Regular.ttf": "/ape-nft/static/media/MessinaSansMono-Regular.b289391c577f8fd447dd.ttf",
@@ -50,13 +51,17 @@
     "static/media/MessinaSansMono-SemiBold.ttf": "/ape-nft/static/media/MessinaSansMono-SemiBold.79c44c973c9e739c9ad4.ttf",
     "static/media/MessinaSansMono-Black.ttf": "/ape-nft/static/media/MessinaSansMono-Black.415e3ceac622bc0166b2.ttf",
     "static/media/heroApe768@1x.png": "/ape-nft/static/media/heroApe768@1x.5ff4c903548a3209f0ec.png",
+    "static/media/faq4@2x.jpg": "/ape-nft/static/media/faq4@2x.d4f531297ccafeb0d9cf.jpg",
     "static/media/aboutApe480@1x.png": "/ape-nft/static/media/aboutApe480@1x.6905cd35496201479266.png",
+    "static/media/faq1@2x.jpg": "/ape-nft/static/media/faq1@2x.3f2fe3ec625ed8c9d3c4.jpg",
+    "static/media/faq3@2x.jpg": "/ape-nft/static/media/faq3@2x.4c535f1cbe29db113128.jpg",
     "static/media/MessinaSansMono-Light.woff": "/ape-nft/static/media/MessinaSansMono-Light.fcdd12b277767278c6f9.woff",
     "static/media/MessinaSansMono-Regular.woff": "/ape-nft/static/media/MessinaSansMono-Regular.7e93f6fe11e530457b74.woff",
     "static/media/MessinaSansMono-SemiBold.woff": "/ape-nft/static/media/MessinaSansMono-SemiBold.c0ee0f01ae315fe0d3c9.woff",
     "static/media/MessinaSansMono-Book.woff": "/ape-nft/static/media/MessinaSansMono-Book.7942111b585d18ee3f0b.woff",
     "static/media/MessinaSansMono-Bold.woff": "/ape-nft/static/media/MessinaSansMono-Bold.eabbd16e65ddd8534818.woff",
     "static/media/MessinaSansMono-Black.woff": "/ape-nft/static/media/MessinaSansMono-Black.d37cfdb431993fab6930.woff",
+    "static/media/faq2@1x.jpg": "/ape-nft/static/media/faq2@1x.409eb17e42d14b6e4537.jpg",
     "static/media/heroApe480@1x.jpg": "/ape-nft/static/media/heroApe480@1x.37daa693d4df6809a15c.jpg",
     "static/media/MessinaSansMono-Light.woff2": "/ape-nft/static/media/MessinaSansMono-Light.fe08efc6972be1408e2e.woff2",
     "static/media/MessinaSansMono-Regular.woff2": "/ape-nft/static/media/MessinaSansMono-Regular.19feb1851352756f781c.woff2",
@@ -64,13 +69,16 @@
     "static/media/MessinaSansMono-Book.woff2": "/ape-nft/static/media/MessinaSansMono-Book.b3838f3ea42c2f55a8c1.woff2",
     "static/media/MessinaSansMono-Bold.woff2": "/ape-nft/static/media/MessinaSansMono-Bold.61910e51851cc8d59a12.woff2",
     "static/media/MessinaSansMono-Black.woff2": "/ape-nft/static/media/MessinaSansMono-Black.371abe33808d4457f340.woff2",
+    "static/media/faq3@1x.jpg": "/ape-nft/static/media/faq3@1x.27cd9b2ba7b680ccd2b6.jpg",
+    "static/media/faq4@1x.jpg": "/ape-nft/static/media/faq4@1x.6fc13019f913be356f92.jpg",
+    "static/media/faq1@1x.jpg": "/ape-nft/static/media/faq1@1x.fef0a90178ebf206c6da.jpg",
     "static/media/icons.svg": "/ape-nft/static/media/icons.9cbaec11eff4896f7227250ee429d198.svg",
     "index.html": "/ape-nft/index.html",
-    "main.acda5781.css.map": "/ape-nft/static/css/main.acda5781.css.map",
-    "main.b21c0358.js.map": "/ape-nft/static/js/main.b21c0358.js.map"
+    "main.ddd30f9f.css.map": "/ape-nft/static/css/main.ddd30f9f.css.map",
+    "main.210bd616.js.map": "/ape-nft/static/js/main.210bd616.js.map"
   },
   "entrypoints": [
-    "static/css/main.acda5781.css",
-    "static/js/main.b21c0358.js"
+    "static/css/main.ddd30f9f.css",
+    "static/js/main.210bd616.js"
   ]
 }
