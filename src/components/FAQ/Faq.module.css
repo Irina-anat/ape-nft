@@ -1,0 +1,81 @@
+.faqSection{
+    background-color: var(--primary-background);
+    color: var(--primary-text-color);
+    padding: 60px 72px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 767px){
+.itemImage {
+        display: none;
+    }
+}
+
+.faqTitle{
+    color: var(--primary-text-color);
+    font-family: "Right Grotesk";
+    font-size: 44px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 0.9091;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.itemNumber{
+    color: var(--accent-color);
+    font-family: "Biro Script Plus";
+    font-size: 12px;
+    line-height: 1.6667;
+    margin-right: 4px;
+
+    &:hover{
+            color: var(--primary-text-color);
+        }
+}
+
+.open .itemNumber{
+color: var(--primary-text-color);
+}
+
+.itemTitle{
+    color: var(--primary-text-color);
+    font-family: "Right Grotesk";
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+
+    &:hover {
+            color: var(--accent-color);
+        }
+}
+
+.open .itemTitle{
+color: var(--accent-color);
+}
+
+.itemText{
+    display: none;
+}
+
+.open .itemText{
+    display: block;
+    color: var(--primary-text-color);
+    font-family: "Messina Sans Mono";
+    font-size: 12px;
+    line-height: 1.1667;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+
+
+.faqItem.open {
+    border-radius: 12px;
+    background-color: var(--secondary-background); 
+    padding: 8px 8px 10px 8px;
+    margin-bottom: 8px;
+}

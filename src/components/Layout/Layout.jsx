@@ -3,7 +3,8 @@ import css from './Layout.module.css'
 import { Hero } from 'components/Hero/Hero';
 import { AboutSection } from 'components/AboutSection/AboutSection';
 import { Mind } from 'components/Mind/Mind';
-// import { Faq } from 'components/FAQ/Faq';
+import { Faq } from 'components/FAQ/Faq';
+
 
 export const Layout = ({ children }) => {
   return (
@@ -13,7 +14,7 @@ export const Layout = ({ children }) => {
         <Hero />
         <AboutSection />
         <Mind />
-        {/* <Faq/> */}
+         <Faq/> 
         {children}
       </main>      
     </div>
