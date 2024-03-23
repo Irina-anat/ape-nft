@@ -3,7 +3,6 @@
     top: 54px;
     width: 100%;
     max-width: 480px;
-    z-index: 999;
     display: flex;
     justify-content: space-between;
     padding: 8px 16px 19px 16px;

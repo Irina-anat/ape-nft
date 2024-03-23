@@ -15,3 +15,62 @@
     text-align: center;
     margin-bottom: 24px;
 }
+
+.textBox{
+    display: flex;
+    flex-direction: column;   
+    font-family: "Messina Sans Mono";
+    font-size: 12px;
+    line-height: 1.1667;
+    text-transform: uppercase;
+    flex-grow: 1;
+}
+
+.boxSwiper{
+    width: 216px;
+}
+
+.cardBox{
+  padding: 24px 12px;
+  width: 216px;
+  height: 242px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  background-color: var(--secondary-background);
+}
+
+.cardBox.active {
+    background-color: var(--background-red);
+}
+
+
+.vectorBox {
+    margin-left: auto;
+}
+
+.cardTitle{
+    font-family: "Right Grotesk";
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.btnBox{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.sliderBtn{
+    all: initial;
+    color: var(--primary-text-color);
+    font-family: "Biro Script Plus";
+    font-size: 24px;
+    line-height: 1;
+    background-color: transparent;
+    cursor: pointer;    
+}
+

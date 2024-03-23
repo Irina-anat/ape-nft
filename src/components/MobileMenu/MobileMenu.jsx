@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { createPortal } from 'react-dom';
-import css from './MobileMenu.module.css';
 import { LogoImage } from 'components/LogoImage/LogoImage';
 import { SocialList } from 'components/SocialList/SocialList';
+import css from './MobileMenu.module.css';
 
 
 const modalRoot = document.getElementById('modal-root');

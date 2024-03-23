@@ -12,7 +12,13 @@
         }
 }
 
-.crossIcon{
+.crossIcon,
+.vectorIcon{
     color: var(--primary-text-color);
     fill: currentColor;
+}
+
+.vectorIcon{
+width: 24px;
+height: 24px;
 }

@@ -32,11 +32,12 @@ margin-left: 24px;
 }
 
 @keyframes scrollText {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
+        0% {
+            transform: translateX(0%);
+        }
+    
+        100% {
+            transform: translateX(-100%);
+        }
 } 
 
