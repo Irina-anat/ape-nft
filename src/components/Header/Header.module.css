@@ -1,14 +1,27 @@
 .headerBox{
     position: fixed;
     top: 54px;
-    width: 100%;
-    max-width: 480px;
     display: flex;
     justify-content: space-between;
     padding: 8px 16px 19px 16px;
     background-color: transparent;
     pointer-events: none;
     z-index: 1;
+
+     @media screen and  (max-width: 767px){
+    width: 100%;
+    max-width: 480px;
+    } 
+
+
+    @media (min-width: 768px){
+    width: 768px;
+    padding: 12px 24px 12px 24px;
+    }
+
+    @media (min-width: 1280px) {
+            width: 1280px;
+    }
 }
 
 .btnMenu{
