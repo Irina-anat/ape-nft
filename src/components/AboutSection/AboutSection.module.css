@@ -1,9 +1,11 @@
-.aboutContainer{
-    background-color: var(--primary-background);
-    color: var(--primary-text-color);
-    padding: 60px 68px 0px 68px;
-}
-
+ .sectionContainer {
+     padding: 60px 72px 0px 72px;
+     margin-right: auto;
+     margin-left: auto;
+     background-color: var(--primary-background);
+     color: var(--primary-text-color);
+ }
+ 
  .contentBox {
      max-width: 230px;
      margin-right: auto;

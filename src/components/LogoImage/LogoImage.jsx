@@ -24,7 +24,7 @@ export const LogoImage = () => {
 
 
     return (
-         <a   href="/">
+         <a  href="https://irina-anat.github.io/ape-nft/">
          <picture  className={isScrolled ? css.scrolled : ''}>
                 <source
                     srcSet={`${logoDesktop1x} 1x, ${logoDesktop2x} 2x`}

@@ -4,6 +4,9 @@ import { Hero } from 'components/Hero/Hero';
 import { AboutSection } from 'components/AboutSection/AboutSection';
 import { Mind } from 'components/Mind/Mind';
 import { Faq } from 'components/FAQ/Faq';
+import { Footer } from 'components/Footer/Footer';
+import { Contact } from 'components/Contact/Contact';
+import { Banner } from 'components/Banner/Banner';
 
 
 export const Layout = ({ children }) => {
@@ -13,10 +16,13 @@ export const Layout = ({ children }) => {
       <main>
         <Hero />
         <AboutSection />
+        <Banner/>
         <Mind />
-         <Faq/> 
+        <Faq /> 
+        <Contact/>
         {children}
-      </main>      
+      </main> 
+      <Footer/>
     </div>
   );
 };

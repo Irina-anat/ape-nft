@@ -23,7 +23,7 @@ export const Banner = () => {
         <div className={css.containerItem}>
           <span>Destroy stereotypes</span>
            <div className={css.crossBox}>
-           <CrossIcon /> 
+           <CrossIcon />
           </div> 
         </div>
       </div>

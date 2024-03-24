@@ -1,0 +1,18 @@
+.footerSection{
+    padding: 60px 72px 24px 72px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: var(--primary-background);
+    color: var(--primary-text-color);
+}
+
+.footerText{
+    text-align: center;
+    font-family: "Messina Sans Mono";
+    font-size: 12px;
+    line-height: 1.1667;
+    text-transform: uppercase;
+    max-width: 216px;
+    margin-right: auto;
+    margin-left: auto;
+}

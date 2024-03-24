@@ -7,12 +7,11 @@ import aboutApeDesktop1 from 'img/about/aboutApe1280@1x.png';
 import aboutApeDesktop2 from 'img/about/aboutApe1280@2x.png';
 
 import css from './AboutSection.module.css';
-import { Banner } from 'components/Banner/Banner';
 
 export const AboutSection = () => {
   return (
     <section id="#about">
-      <div className={css.aboutContainer}>
+      <div className={css.sectionContainer}>
        <div className={css.contentBox}>
         <h2 className={css.aboutTitle}>
           a Story that started with
@@ -64,7 +63,6 @@ export const AboutSection = () => {
         </div>
       </div>
       </div>      
-      <Banner/>
     </section>
   );
 };

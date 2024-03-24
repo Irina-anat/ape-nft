@@ -1,0 +1,39 @@
+.contactSection {
+    padding: 60px 72px 0px 72px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: var(--primary-background);
+    color: var(--primary-text-color);
+}
+
+
+.contactTitle{
+    font-family: "Right Grotesk";
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 0.901;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.containerCross {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contactText{
+    text-align: center;
+    font-family: "Messina Sans Mono";
+    font-size: 16px;
+    line-height: 1.1875;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    max-width: 216px;
+    margin-right: auto;
+    margin-left: auto;
+}

@@ -92,7 +92,7 @@ export const Faq = () => {
           key={3}
         >
           <span className={css.itemNumber}>[ 4 ]</span>
-          <h3 className={css.itemTitle} onClick={() => handleItemClick(3)}>
+          <h3 className={css.itemTitleLast} onClick={() => handleItemClick(3)}>
             WHAT RIGHTS DO I HAVE AS AN OWNER OF AN NFT?
           </h3>
           <div className={css.itemImage}>

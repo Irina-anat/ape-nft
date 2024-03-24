@@ -1,7 +1,7 @@
 .mindSection{
     background-color: var(--primary-background);
     color: var(--primary-text-color);
-    padding: 60px 72px;
+    padding: 60px 72px 0px 72px;
     margin-right: auto;
     margin-left: auto;
 }
