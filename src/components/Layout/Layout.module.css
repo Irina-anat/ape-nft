@@ -1,5 +1,6 @@
 .container{
 margin: 0 auto;
+background-color: var(--primary-background);
 }
    
 @media screen  and (min-width: 480px) {
