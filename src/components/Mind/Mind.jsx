@@ -1,11 +1,11 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import { ButtonsSlider } from './ButtonsSlider';
+import { VectorIcon } from 'components/Icons/VectorIcon';
+import { useMediaQuery } from 'react-responsive';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import css from './Mind.module.css';
-import { VectorIcon } from 'components/Icons/VectorIcon';
-import { useMediaQuery } from 'react-responsive';
 
 export const Mind = () => {
   const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
@@ -139,7 +139,7 @@ export const Mind = () => {
                 </a>
               </div>
             </div>
-            <h3 className={css.cardTitle}>Learn more in mind map</h3>
+            <h3 className={css.cardTitle}>Learn <br/> more <br/> in mind map</h3>
           </div>
         </div>
       )}

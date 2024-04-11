@@ -1,12 +1,15 @@
 import { DiscordIcon } from 'components/Icons/DiscordIcon';
-import css from './SocialList.module.css';
 import { ShipIcon } from 'components/Icons/ShipIcon';
 import { TwitterIcon } from 'components/Icons/TwitterIcon';
+import css from './SocialList.module.css';
+import { useScroll } from 'hooks/useScroll';
 
 export const SocialList = () => {
+  const isScrolled = useScroll();
+
     return (
         <>
-            <ul className={css.socialList}>
+            <ul className={`${css.socialList} ${isScrolled ? css.scrolled : ''}`}>
           <li className={css.socialItem}>
             <a
               href="https://discord.com/"

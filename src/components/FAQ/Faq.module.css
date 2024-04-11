@@ -2,29 +2,19 @@
     padding: 60px 72px 0px 72px;
     margin-right: auto;
     margin-left: auto;
-    background-color: var(--primary-background);
     color: var(--primary-text-color);
-}
 
-.faqList{
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 216px;
-}
-
-
-.itemImage {
-        display: none;
+    @media screen and (min-width: 768px){
+    padding: 80px 88px 0 88px;
     }
 
-
-.open .itemImage {
-    @media screen and (min-width: 768px) {
-        display: block;
+    @media screen and (min-width: 1280px){
+    padding: 120px 124px 0 124px;
     }
+
 }
 
-.faqTitle{
+.faqTitle {
     color: var(--primary-text-color);
     font-family: "Right Grotesk";
     font-size: 44px;
@@ -33,23 +23,82 @@
     line-height: 0.9091;
     text-transform: uppercase;
     margin-bottom: 24px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 80px;
+        line-height: 1;
+        margin-bottom: 48px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 160px;
+        margin-bottom: 80px;
+    }
 }
 
-.itemNumber{
-    color: var(--accent-color);
-    font-family: "Biro Script Plus";
-    font-size: 12px;
-    line-height: 1.6667;
-    margin-right: 4px;
+.faqList{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 216px;
 
-    &:hover{
-            color: var(--primary-text-color);
-        }
+    @media screen and (min-width: 768px){
+    max-width: 592px;
+    }
+
+    @media screen and (min-width: 1280px){
+    max-width: 1032px;
+    }
 }
 
-.open .itemNumber{
-color: var(--primary-text-color);
+.faqItem.open {
+    border-radius: 12px;
+    background-color: var(--secondary-background);
+    padding: 8px 8px 10px 8px;
+     margin-bottom: 8px; 
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    @media screen and (min-width: 768px) {
+        /*for img*/
+        position: relative;
+        padding: 18px 16px 23px 0;
+        margin-bottom: 18px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding: 24px;
+        margin-bottom: 24px;
+    }
 }
+
+
+.itemImage {
+        display: none;
+}
+
+
+.open .itemImage {
+    @media screen and (min-width: 768px) {
+        display: block;
+        border-radius: 16px;
+        position: absolute;
+        transform: rotate(-16deg);
+        top: 2px;
+        left: 14px;
+    }
+}
+
+.open .img{
+    width: 168px; 
+    border-radius: 16px;
+
+    @media screen and (min-width: 1280px){
+    width: 278px;
+    }
+} 
+
 
 .itemTitle,
 .itemTitleLast{
@@ -59,14 +108,38 @@ color: var(--primary-text-color);
     font-weight: 900;
     line-height: 1;
     text-transform: uppercase;
+    margin-left: 39px;
+    cursor: pointer;
 
     &:hover {
             color: var(--accent-color);
         }
+
+    @media screen and (min-width: 768px){
+    font-size: 32px;
+    margin-left: auto;
+    max-width: 335px;
+    margin-left: 237px;
+    }
+
+    @media screen and (min-width: 1280px){
+    font-size: 64px;
+    max-width: 635px;
+    margin-left: 373px;
+    }
 }
 
 .itemTitle{
 margin-bottom: 16px;
+
+
+@media screen and (min-width: 768px){
+margin-bottom: 18px;
+}
+
+@media screen and (min-width: 1280px){
+    margin-bottom: 24px;
+}
 }
 
 .itemTitleLast{
@@ -77,7 +150,51 @@ margin-bottom: 16px;
 .open .itemTitle,
 .open .itemTitleLast{
 color: var(--accent-color);
+margin-bottom: 10px;
+
+@media screen and (min-width: 768px){
+    margin-bottom: 12px;
 }
+
+@media screen and (min-width: 1280px) {
+    margin-bottom: 36px;
+}
+}
+
+.boxTitle{
+    /*for number*/
+    position: relative;
+}
+
+
+.itemNumber {
+    position: absolute;
+    color: var(--accent-color);
+    font-family: "Biro Script Plus";
+    font-size: 10px;
+    line-height: 1.6667;
+
+    &:hover {
+        color: var(--primary-text-color);
+    }
+
+    @media screen and (min-width: 768px) {
+       font-size: 16px;
+       top: 8px;
+       left: 187px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 24px;
+        top: 10px;
+        left: 308px;
+    }
+}
+
+.open .itemNumber {
+    color: var(--primary-text-color);
+}
+
 
 .itemText{
     display: none;
@@ -90,18 +207,18 @@ color: var(--accent-color);
     font-size: 12px;
     line-height: 1.1667;
     text-transform: uppercase;
-    margin-bottom: 18px;
-}
+    margin-left: 39px;
 
+    @media screen and (min-width: 768px){
+    font-size: 16px;
+    margin-left: auto;
+    max-width: 335px;
+    margin-left: 237px;
+    }
 
-
-.faqItem.open {
-    border-radius: 12px;
-    background-color: var(--secondary-background); 
-    padding: 8px 8px 10px 8px;
-    margin-bottom: 8px;
-
-    &:last-child{
-        margin-bottom: 0;
+    @media screen and (min-width: 1280px){
+    max-width: 635px;
+    margin-left: 373px;
     }
 }
+

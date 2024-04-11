@@ -4,7 +4,7 @@ import { FormComponent } from 'components/Form/Form';
 
 export const Contact = () => {
     return (
-        <section className={css.contactSection}>
+        <section id="#mint" className={css.contactSection}>
             <h2 className={css.contactTitle}>Are you in?</h2>
             <div className={css.containerCross}>
                 <CrossIcon />

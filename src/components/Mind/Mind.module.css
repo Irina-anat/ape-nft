@@ -1,5 +1,4 @@
 .mindSection{
-    background-color: var(--primary-background);
     color: var(--primary-text-color);
     padding: 60px 72px 0px 72px;
     margin-right: auto;
@@ -7,7 +6,12 @@
     @media screen and (min-width: 768px) {
     padding: 80px 88px 0px 88px;
     margin-right: auto;
-    margin-left: auto;}
+    margin-left: auto;
+}
+
+    @media screen and (min-width: 1280px){
+        padding: 120px 124px 0 124px;
+    }
 }
 
 .mindTitle{
@@ -24,6 +28,10 @@
         line-height: 1;
         margin-bottom: 40px;
         }
+    @media screen and (min-width: 1280px){
+    font-size: 160px;
+    margin-bottom: 80px;
+    }
 }
 
 .textBox{
@@ -37,6 +45,11 @@
 
     @media screen and (min-width: 768px) {
     margin-left: auto;
+    }
+
+    @media screen and (min-width: 1280px){
+    font-size: 24px;
+    line-height: 1.20833;
     }
 }
 
@@ -59,6 +72,11 @@
         padding: 24px;
         margin-bottom: 0;
     }
+
+    @media screen and (min-width: 1280px) {
+    width: 504px;
+    height: 480px;
+    }
 }
 
 .cardBox.active {
@@ -66,8 +84,10 @@
 }
 
 .vectorBox {
+    position: relative;
     margin-left: auto;
 }
+
 
 .cardTitle{
     font-family: "Right Grotesk";
@@ -75,6 +95,10 @@
     font-weight: 900;
     line-height: 1;
     text-transform: uppercase;
+
+    @media screen and (min-width: 1280px){
+    font-size: 62px;
+    }
 }
 
 .btnBox{
@@ -90,7 +114,14 @@
     font-size: 24px;
     line-height: 1;
     background-color: transparent;
-    cursor: pointer;    
+    cursor: pointer;
+    transition: color 250ms var(--timing-function);
+     
+    &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
+    
 }
 
 /*for tablet, desctop*/

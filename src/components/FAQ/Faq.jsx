@@ -17,24 +17,37 @@ export const Faq = () => {
   };
 
   return (
-    <section className={css.faqSection}>
+    <section id="#faq" className={css.faqSection}>
       <h2 className={css.faqTitle}>FAQ</h2>
       <ul className={css.faqList}>
         <li
           className={`${css.faqItem} ${openedIndex === 0 ? css.open : ''}`}
           key={0}
         >
-          <span className={css.itemNumber}>[ 1 ]</span>
-          <h3 className={css.itemTitle} onClick={() => handleItemClick(0)}>
-            WHAT IS AN NFT COLLECTION?
-          </h3>
+          <div className={css.boxTitle}>
+           <span className={css.itemNumber} >[ 1 ]</span>               
+            <h3 className={css.itemTitle} onClick={() => handleItemClick(0)}>
+              WHAT IS AN NFT COLLECTION?
+            </h3>
+          </div>
           <div className={css.itemImage}>
             <picture>
               <source
                 srcSet={`${ape1s1} 1x, ${ape1s2} 2x`}
-                media="(min-width: 768px)"
+                media="(min-width: 1280px)"
+                sizes="min-width: 278px"
               />
-              <img src={ape1s1} alt="stylish monkey on a pink background" />
+              <source
+                srcSet={`${ape1s1} 1x, ${ape1s2} 2x`}
+                media="(min-width: 768px)"
+                sizes="min-width: 168px"
+              />
+              <img
+                className={css.img}
+                src={ape1s1}
+                alt="stylish monkey on a pink background"
+                loading="lazy"
+              />
             </picture>
           </div>
           <p className={css.itemText}>
@@ -47,17 +60,24 @@ export const Faq = () => {
           className={`${css.faqItem} ${openedIndex === 1 ? css.open : ''}`}
           key={1}
         >
-          <span className={css.itemNumber}>[ 2 ]</span>
+          <div className={css.boxTitle}>
+        <span className={css.itemNumber}>[ 2 ]</span>         
           <h3 className={css.itemTitle} onClick={() => handleItemClick(1)}>
             HOW DO I PURCHASE NFTS FROM A COLLECTION?
           </h3>
+          </div>         
           <div className={css.itemImage}>
             <picture>
               <source
                 srcSet={`${ape2s1} 1x, ${ape2s2} 2x`}
                 media="(min-width: 768px)"
               />
-              <img src={ape2s1} alt="monkey in military style" />
+              <img
+                className={css.img}
+                src={ape2s1}
+                alt="monkey in military style"
+                loading="lazy"
+              />
             </picture>
           </div>
           <p className={css.itemText}>
@@ -69,17 +89,24 @@ export const Faq = () => {
           className={`${css.faqItem} ${openedIndex === 2 ? css.open : ''}`}
           key={2}
         >
+          <div className={css.boxTitle}>
           <span className={css.itemNumber}>[ 3 ]</span>
           <h3 className={css.itemTitle} onClick={() => handleItemClick(2)}>
             CAN I SELL OR TRADE NFTS FROM A COLLECTION?
           </h3>
+          </div>          
           <div className={css.itemImage}>
             <picture>
               <source
                 srcSet={`${ape3s1} 1x, ${ape3s2} 2x`}
                 media="(min-width: 768px)"
               />
-              <img src={ape3s1} alt="monkey on a red background" />
+              <img
+                className={css.img}
+                src={ape3s1}
+                alt="monkey on a red background"
+                loading="lazy"
+              />
             </picture>
           </div>
           <p className={css.itemText}>
@@ -91,17 +118,24 @@ export const Faq = () => {
           className={`${css.faqItem} ${openedIndex === 3 ? css.open : ''}`}
           key={3}
         >
-          <span className={css.itemNumber}>[ 4 ]</span>
+          <div className={css.boxTitle}>
+           <span className={css.itemNumber}>[ 4 ]</span>
           <h3 className={css.itemTitleLast} onClick={() => handleItemClick(3)}>
             WHAT RIGHTS DO I HAVE AS AN OWNER OF AN NFT?
           </h3>
+          </div>         
           <div className={css.itemImage}>
             <picture>
               <source
                 srcSet={`${ape4s1} 1x, ${ape4s2} 2x`}
                 media="(min-width: 768px)"
               />
-              <img src={ape4s1} alt="sad monkey on a gray background" />
+              <img
+                className={css.img}
+                src={ape4s1}
+                alt="sad monkey on a gray background"
+                loading="lazy"
+              />
             </picture>
           </div>
           <p className={css.itemText}>

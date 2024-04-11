@@ -3,8 +3,9 @@
     top: 0;
     right: 0;
     width: 100vw;
-    height: 100vh;
-    padding: 62px 16px 80px 16px;
+    height: 100vh; 
+    height: 100%;
+    padding: 62px 16px 60px 16px;
     max-width: 524px;
     background-color: var(--primary-background); 
     color: var(--primary-text-color);
@@ -13,12 +14,11 @@
     z-index: 2; 
 }
 
- .mobileMenu.openMenu {   
+.mobileMenu.openMenu{
     transform: translateX(0);
     transition: transform 750ms var(--timing-function);
+   }
     
-    
- }
 
 .mobileBox{
     display: flex;
@@ -46,6 +46,10 @@
         color: var(--primary-text-color);
     }
 
+    @media (min-width: 1280px){
+    font-size: 16px;
+    line-height: 1.1875;
+    }
 }
 
 .mobileItem {
@@ -60,35 +64,39 @@
     background: rgba(30, 30, 30, 0.10);
     backdrop-filter: blur(6px);
     margin-bottom: 10px;
-}
 
-.menuItems{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    align-items: center;
-    margin-top: 16px;
-
-    color: var(--primary-text-color);
-    font-family: "Messina Sans Mono";
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 1.208;
-}
-
-.menuItems a{
-    color: inherit;
 }
 
 
 .menuText{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     text-align: center;
     font-family: "Messina Sans Mono";
     font-size: 12px;
     line-height: 1.1667;
     text-transform: uppercase;
-    bottom: 80px;
+    margin-bottom: auto;
+ } 
+
+.menuLarge{
+    position: fixed;
+    top: 46px;
+    width: 768px;
+    padding: 20px 72px 0px 437px; 
+    background-color: transparent;
+    
+    transform: translateY(-150%);
+    transition: transform 250ms var(--timing-function);
+    
+
+    @media (min-width: 1280px) {
+        width: 1280px;
+        top: 32px;
+        padding: 10px 82px 0px 856px;
+    }
+}
+
+.menuLarge.openMenu {
+    transform: translateY(0);
+    transition: transform 250ms var(--timing-function);
+    border-radius: 12px 0px 0px 12px;
 }

@@ -8,7 +8,8 @@ import { useState } from 'react';
 const validationSchema = Yup.object().shape({
   username: Yup.string()
     .required('Wrong discord')
-    .matches(/^@/, 'Username must start with @'),
+    .matches(/^@/, 'Username must start with @')
+    .min(3, 'Username must be at least 3 characters'),
   walletAddress: Yup.string()
     .required('Wrong address')
     .matches(/^[a-zA-Z0-9@_.-]+$/, 'Invalid wallet address format')

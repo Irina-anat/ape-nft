@@ -2,14 +2,30 @@
      padding: 60px 72px 0px 72px;
      margin-right: auto;
      margin-left: auto;
-     background-color: var(--primary-background);
      color: var(--primary-text-color);
+
+    @media screen and (min-width: 768px){
+    padding: 80px 88px 0px 88px;
+    }
+
+    @media screen and (min-width: 1280px) {
+    padding: 120px 124px 0px 124px;
+    }
  }
  
  .contentBox {
      max-width: 230px;
      margin-right: auto;
      margin-left: auto;
+
+    @media screen and (min-width: 768px){
+    display: flex;
+    justify-content: space-between;
+    max-width: 592px;
+    }
+    @media screen and (min-width: 1280px){
+    max-width: 1032px;    
+    }
  }
 
 .aboutTitle{
@@ -19,12 +35,23 @@
     line-height: 1;
     text-transform: uppercase;
     margin-bottom: 16px;
+
+    @media screen and (min-width: 768px){
+    font-size: 57px;
+    line-height: 1.1;
+    margin-bottom: 68px;
+    }
+
+    @media screen and (min-width: 1280px){
+    font-size: 110px;
+    line-height: 1.1;
+    margin-bottom: 56px;
+    }
 }
 
 .accentColor{
     color: var(--accent-color);
 }
-
 
 .contentContainer {
     display: flex;
@@ -36,6 +63,20 @@
     font-size: 16px;
     line-height: 1.1875;
     text-transform: uppercase;
+
+    @media screen and (min-width: 768px){
+    font-size: 16px;
+    line-height: 1.1875;
+    margin-bottom: 0;
+    margin-top: 11px;
+    }
+
+   @media screen and (min-width: 1280px){
+   font-size: 24px;
+   line-height: 1.20833;
+   margin-top: 24px;
+   margin-bottom: 24px;    
+   }
 } 
 
 .containerCross{
@@ -45,6 +86,12 @@
     width: 24px;
     height: 24px;
     margin-bottom: 16px;
+
+    @media screen and (min-width: 1280px){
+        width: 36px;
+        height: 36px;
+        margin-bottom: 36px;
+    }
 }
 
 .textContainer{
@@ -57,4 +104,15 @@
     font-size: 12px;
     line-height: 1.16667;
     text-transform: uppercase;
+
+    @media screen and (min-width: 768px){
+        font-size: 16px;
+        line-height: 1.1875;
+        margin-bottom: 0;
+    }
+
+    @media screen and (min-width: 1280px){
+        font-size: 24px;
+        line-height: 1.20833;
+    }
 }

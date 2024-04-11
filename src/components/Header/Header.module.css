@@ -8,7 +8,7 @@
     pointer-events: none;
     z-index: 1;
 
-     @media screen and  (max-width: 767px){
+    @media screen and  (max-width: 767px){
     width: 100%;
     max-width: 480px;
     } 
@@ -20,7 +20,9 @@
     }
 
     @media (min-width: 1280px) {
-            width: 1280px;
+        top: 9px;
+        width: 1280px;
+        padding: 33px 32px 0 32px;
     }
 }
 
@@ -40,11 +42,16 @@ transition: color 250ms var(--timing-function);
         outline: none;
     }
 
-        &:hover {
+        &:hover,
+        &.scrolled {
             outline: none;
             color: var(--primary-text-color);
         }
 
+    @media (min-width: 1280px){
+    font-size: 16px;
+    line-height: 1.1875;
+    }
 }
 
 .headerItem{
@@ -59,6 +66,17 @@ transition: color 250ms var(--timing-function);
     background: rgba(30, 30, 30, 0.10);
     backdrop-filter: blur(6px);
     margin-bottom: 10px;
+
+    @media (min-width: 768px) {
+        &.openMenu {
+            border-radius: 0px 12px 12px 0px;
+        }
+    }
+
+    @media (min-width: 1280px){
+        width: 80px;
+        height: 80px;
+    }
 }
 
 

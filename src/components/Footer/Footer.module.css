@@ -2,8 +2,15 @@
     padding: 60px 72px 24px 72px;
     margin-right: auto;
     margin-left: auto;
-    background-color: var(--primary-background);
     color: var(--primary-text-color);
+
+    @media screen and (min-width: 768px){
+    padding: 80px 88px 40px 88px;
+    }
+
+    @media screen and (min-width: 1280px) {
+    padding: 120px 124px 40px 124px;
+    }
 }
 
 .footerText{
@@ -15,4 +22,14 @@
     max-width: 216px;
     margin-right: auto;
     margin-left: auto;
+
+    @media screen and (min-width: 768px){
+    max-width: 273px;
+    }
+
+    @media screen and (min-width: 1280px){
+        font-size: 16px;
+        line-height: 1.1875;
+        max-width: 363px;
+    }
 }

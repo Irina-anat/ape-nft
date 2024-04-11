@@ -1,0 +1,51 @@
+.menuItems {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+        margin-top: 16px;
+        margin-bottom: 26px;
+    
+        font-family: "Messina Sans Mono";
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.208;
+
+
+    @media (min-width: 768px){
+
+        font-size: 12px;
+        line-height: 1.16667;
+        flex-direction: row;
+        border-radius: 12px 0px 0px 12px;
+        background-color: rgba(30, 30, 30, 0.10);
+        backdrop-filter: blur(6px);
+        color: #1E1E1E;
+        height: 48px;
+        margin: 0;
+        gap: 0;
+    }
+  
+    @media (min-width: 1280px){
+    font-size: 16px;
+    line-height: 1.1875;
+    height: 80px;
+    }
+}
+
+.menuLink {
+    color: var(--primary-text-color);
+
+    @media (min-width: 768px) {
+     color: var(--social-icons-color);
+     padding: 10px;
+     transition: color 250ms var(--timing-function);
+     cursor: pointer;
+    
+        &:hover,
+        &:focus,
+        &.scrolled {
+            color: var(--social-icons-color-hover);
+        }
+    }
+}

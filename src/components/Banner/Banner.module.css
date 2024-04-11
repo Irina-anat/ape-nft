@@ -1,4 +1,4 @@
-.banner{
+ .banner{
 width: 100%;
 background-color: var(--background-red);
 color: var(--primary-text-color);
@@ -14,8 +14,8 @@ overflow: hidden;
 
 .scrollText {
     display: flex;
-    white-space: nowrap;
-    animation: scrollText 4s linear infinite;
+    white-space: nowrap; 
+    animation: scrollText 8s linear infinite;
 }
 
 .containerItem{
@@ -25,6 +25,7 @@ overflow: hidden;
 
 .crossBox{
 display: flex;
+align-self: center;
 width: 36px;
 height: 36px;
 margin-right: 24px;
@@ -32,12 +33,22 @@ margin-left: 24px;
 }
 
 @keyframes scrollText {
-        0% {
-            transform: translateX(0%);
-        }
-    
-        100% {
-            transform: translateX(-100%);
-        }
+    0% {
+    transform: translateX(100%);
+    }        
+    100% {
+     transform: translateX(-240%);
+    }
 } 
+
+@media screen and (min-width: 768px){
+@keyframes scrollText {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-150%);
+        }
+    }
+}
 

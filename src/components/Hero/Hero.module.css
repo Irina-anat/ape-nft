@@ -1,35 +1,100 @@
 .heroContainer{
-    background: var(--primary-background);
     padding: 54px 8px 0px 8px;
+
+    @media screen and (min-width: 768px){
+        padding: 54px 16px 0px 16px;        
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding: 16px 16px 0px 16px;
+    }
 }
+
 .heroSection{
     color: var(--secondary-text-color);
     background-color: var(--background-red);
     border-radius: 12px;    
     padding: 36px 64px 19px 64px;
     text-align: center;
+        
+
+    @media screen and (min-width: 768px){
+        display: flex;
+        justify-content: space-between;
+        padding: 124px 56px 0 56px; 
+        text-align: left;   
+        position: relative; 
+        height: 421px;
+        max-width: 736px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    @media screen and (min-width: 1280px){
+        max-width: 1248px;
+        height: 677px;
+        padding: 197px 110px 0 115px ;
+    }
 }
 
-.heroContent{ 
+.heroContent,
+.heroSubContent{ 
     font-family: "Biro Script Plus";/* "Biro Script Plus Bold US"; */
     font-size: 16px;
     line-height: 1.6875;
-    font-weight: 600;
+    font-weight: 600; 
+    
+    @media screen and (min-width: 1280px){
+            font-size: 24px;
+            line-height: 1.9048;
+    }
 }
 
 .heroTitle{
-    font-family: "Right Grotesk";
+    /* font-family: "Right Grotesk"; */
+    font-family: "Right Grotesk Black";
     font-size: 44px;
     font-weight: 900;
     line-height: 1;
     letter-spacing: 0.01em;
     margin-bottom: 8px;
+
+    @media screen and (min-width: 768px){
+    font-size: 92px;
+    margin-bottom: 16px;
+    }
+
+    @media screen and (min-width: 1280px){
+    font-size: 164px;
+    margin-bottom: 30px;
+    }    
+}
+
+.heroTitleRight{
+@media screen and (min-width: 768px){
+    margin-bottom: 24px;
+    margin-left: auto;
+    @media screen and (min-width: 1280px){
+        margin-bottom: 40px;
+    }
+}
 }
 
 .heroImage{
    display: flex;
-justify-content: center;
+   justify-content: center;
+  
+@media screen and (min-width: 768px){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -45.3%);
 }
+@media screen and (min-width: 1280px){
+    transform: translate(-55%, -44.6%);
+}
+} 
+
 
 .heroBtn{
     font-family: "Right Grotesk";
@@ -51,7 +116,20 @@ justify-content: center;
         &:hover{
             color: var(--primary-text-color);
         }
+
+@media screen and (min-width: 768px){
+    padding: 10px 56px 12px 56px;
+    margin-top: 16px;
 }
+
+@media screen and (min-width: 1280px){
+    font-size: 28px;
+    line-height: 1.214;
+    padding: 16px 100px 20px 100px;
+    margin-top: 28px;
+}
+}
+
 
 .heroText{
     font-family: "Messina Sans Mono";
@@ -61,4 +139,31 @@ justify-content: center;
     max-width: 217px;
     margin-right: auto;
     margin-left: auto;
+
+    @media screen and (min-width: 1280px){
+        font-size: 16px;
+        line-height: 1.1875;
+        max-width: 337px;
+    }
+}
+
+/*for tabl desc*/
+ .contentBox{
+margin-top: 30px;
+
+@media screen and (min-width: 1280px){
+    margin-top: 40px;
+}
+} 
+
+/*fot tabt desc button description*/
+
+.bottomBox{
+display: flex;
+flex-direction: column-reverse;
+max-width: 190px;
+
+@media screen and (min-width: 1280px){
+max-width: 337px;
+}
 }

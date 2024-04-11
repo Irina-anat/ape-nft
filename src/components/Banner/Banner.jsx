@@ -1,5 +1,6 @@
 import { CrossIcon } from 'components/Icons/CrossIcon';
-import css from './Banner.module.css'; // Ваші стилі
+import css from './Banner.module.css'; 
+
 
 export const Banner = () => {
   return (
@@ -15,16 +16,16 @@ export const Banner = () => {
           </div>
         </div>
         <div className={css.containerItem}>
-          <span>Break rules</span>
+          <span>BREAC RULES</span>
           <div className={css.crossBox}>
             <CrossIcon />
           </div>
         </div>
         <div className={css.containerItem}>
-          <span>Destroy stereotypes</span>
+          <span>DESTROY STEREOTYPES</span>
            <div className={css.crossBox}>
            <CrossIcon />
-          </div> 
+          </div>
         </div>
       </div>
     </div>
